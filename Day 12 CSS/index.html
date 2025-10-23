@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Designing Webpage</title>
+	<!-- Note: -->
+	<!-- Three ways to use CSS properties on html files -->
+	<!-- External Style sheet -->
+	<!-- Internal Style -->
+	<!-- Inline Style -->
+
+	<!-- Linked CSS file with html file, using *link* tag. -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<style>
+		/* Inline Style */
+		.flex-container {
+			justify-content: center;
+			display: flex;
+			background-color: gray;
+		}
+
+		.flex-item {
+			width: 300px;
+			min-height: 150px;
+			padding: 10px;
+			background-color: navy;
+			margin: 10px;
+			font-size: 20px;
+		}
+
+		.box-container {
+			justify-content: center;
+			display: flex;
+			gap: 10px;
+		}
+
+		.box-item {
+			width: 150px;
+			height: 150px;
+			background-color: purple;
+			padding: 5px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 id="main-title">CSS (Cascading Style Sheet) Masterclass</h1>
+
+	<p>This is <span class="highlight">demo</span> text.</p>
+
+	<h2 style="text-align: center; color: aqua;">I am realy enjoying #100DaysLearningChallenge.</h2>
+
+	<h3 style="text-align:center; color: khaki;">Flex Box Model Demo</h3>
+	<!-- Flex Box Model is used to create a section. -->
+	<!-- This section will contain different items. -->
+	<!-- It is very helpful in creating different menu options on the top menu row. -->
+
+	<!-- flex-container::start -->
+	<div class="flex-container">
+		<div class="flex-item">
+			<h2>Heading 1</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cupiditate.</p>
+		</div>
+		<div class="flex-item">
+			<h2>Heading 2</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cupiditate.</p>
+		</div>
+		<div class="flex-item">
+			<h2>Heading 3</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cupiditate.</p>
+		</div>
+	</div>
+	<!-- flex-container::end -->
+	
+
+	<h3 style="text-align: center; color: khaki;">What is Box Model?</h3>
+	
+	<!-- box-container::start -->
+	<div class="box-container">
+		<div class="box-item">Box 1</div>
+		<div class="box-item">Box 2</div>
+	</div>
+	<!-- box-container::end -->
+
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid eum nemo rerum, quibusdam at velit atque, quas libero tempora quod ratione mollitia id aperiam vitae quidem error. Minus, modi?</p>
+</body>
+
+</html>
