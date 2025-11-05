@@ -1,0 +1,24 @@
+<studentRecords>
+
+	<student>
+		<name>Rahul</name>
+		<age>18</age>
+		<id>2553</id>
+		<contact>012345</contact>
+	</student>
+	
+	<student>
+		<name>Rajesh</name>
+		<age>21</age>
+		<id>2423</id>
+		<contact>056751</contact>
+	</student>
+
+	<student>
+		<name>kamaal</name>
+		<age>24</age>
+		<id>2453</id>
+		<contact>136712</contact>
+	</student>
+
+</studentRecords>
