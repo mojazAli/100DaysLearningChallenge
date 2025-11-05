@@ -1,0 +1,22 @@
+<!-- 
+	* XML stands for Extensible Markup Language, that provides
+	rules to define any data. 
+ 	* XML deos not have any pre-defined tags. 
+ 	* These tags are created by XML document author. 
+ 	* XML is a self descriptive language. 
+-->
+
+<studentRecords xmlns="http://www.example.com/studentRecords" xmlns:xsi="http://www.example.com/studentRecordsSchema-instance" xsi:schemaLocation="http://www.example.com/studentRecords studentRecordsSchema.xsd">
+	<student status="active">
+		<name>Rahul</name>
+		<age>18</age>
+		<id>2553</id>
+		<contact>012345</contact>
+	</student>
+	<student status="inactive">
+		<name>Rajesh</name>
+		<age>21</age>
+		<id>2423</id>
+		<contact>056751</contact>
+	</student>
+</studentRecords>

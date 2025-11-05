@@ -1,0 +1,20 @@
+<xs:schema xmlns="http://www.example.com/studentRecordsSchema">
+
+	<xs:element name="studentRecords">
+		<xs:complexType>
+		
+			<xs:element name="student">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string">
+						<xs:element name="age" type="xs:integer">
+						<xs:element name="id" type="xs:integer">
+						<xs:element name="contact" type="xs:string">
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
